@@ -1,0 +1,12 @@
+a=input().split(':')
+b=input().split(':')
+dur=int(input())
+de=int(input())
+t=dur+de
+x=int(b[0])*60+int(b[1])
+y=int(a[0])*60+int(a[1])
+s=x-y
+if(s>t):
+    print("Yes")
+else:
+    print("No")
